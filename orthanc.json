@@ -21,7 +21,7 @@
   "WebDavDeleteAllowed" : false,
   "WebDavUploadAllowed" : true,
   "DicomServerEnabled" : true,
-  "DicomAet" : "MAPDR",
+  "DicomAet" : "SIA",
   "DicomCheckCalledAet" : true,
   "DicomPort" : 4242,
   "DefaultEncoding" : "Latin1",
@@ -34,7 +34,7 @@
   "SslMinimumProtocolVersion" : 4,
   "SslVerifyPeers" : false,
   "SslTrustedClientCertificates" : "trustedClientCertificates.pem",
-  "AuthenticationEnabled" : true,
+  "AuthenticationEnabled" : false,
     "RegisteredUsers" : {
     "ap" : "123.qwe"
   },
@@ -48,7 +48,7 @@
   "DicomAlwaysAllowMove" : false,
   "DicomCheckModalityHost" : false,
   "DicomModalities" : {
-      // "MAPDRX" : [ "MAPDR", "127.0.0.1", 11112]
+      // "TESTX" : [ "TEST", "127.0.0.1", 11112]
   },
   "DicomModalitiesInDatabase" : false,
   "DicomEchoChecksFind" : false,
