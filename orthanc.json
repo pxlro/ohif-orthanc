@@ -1,5 +1,5 @@
 {
-  "Name" : "SIA",
+  "Name" : "PACS",
   "StorageDirectory" : "/var/lib/orthanc/db",
   "IndexDirectory" : "/var/lib/orthanc/db",
   "StorageCompression" : true,
@@ -29,14 +29,14 @@
   "UnknownSopClassAccepted" : false,
   "DicomScpTimeout" : 30,
   "RemoteAccessAllowed" : true,
-  "SslEnabled" : false,
+  "SslEnabled" : true,
   "SslCertificate" : "certificate.pem",
   "SslMinimumProtocolVersion" : 4,
   "SslVerifyPeers" : false,
   "SslTrustedClientCertificates" : "trustedClientCertificates.pem",
   "AuthenticationEnabled" : false,
     "RegisteredUsers" : {
-    "ap" : "123.qwe"
+    "pacs" : "pacs"
   },
   "DicomTlsEnabled" : false,
   "DicomTlsRemoteCertificateRequired" : true,
