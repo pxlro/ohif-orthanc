@@ -1,5 +1,5 @@
 {
-  "Name" : "PACS",
+  "Name" : "SIA PACS",
   "StorageDirectory" : "/var/lib/orthanc/db",
   "IndexDirectory" : "/var/lib/orthanc/db",
   "StorageCompression" : true,
@@ -23,7 +23,7 @@
   "DicomServerEnabled" : true,
   "DicomAet" : "SIA",
   "DicomCheckCalledAet" : true,
-  "DicomPort" : 4242,
+  "DicomPort" : 104,
   "DefaultEncoding" : "Latin1",
   "AcceptedTransferSyntaxes" : [ "1.2.840.10008.1.*" ],
   "UnknownSopClassAccepted" : false,
@@ -36,7 +36,7 @@
   "SslTrustedClientCertificates" : "trustedClientCertificates.pem",
   "AuthenticationEnabled" : false,
     "RegisteredUsers" : {
-    "pacs" : "pacs"
+    "test" : "testx"
   },
   "DicomTlsEnabled" : false,
   "DicomTlsRemoteCertificateRequired" : true,
