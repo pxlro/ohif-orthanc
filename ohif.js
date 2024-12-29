@@ -7,7 +7,7 @@ window.config = {
   servers: {
     dicomWeb: [
       {
-        name: 'Orthanc',
+        name: 'SIA PACS',
         wadoUriRoot: '/orthanc/wado',
         qidoRoot: '/orthanc/dicom-web',
         wadoRoot: '/orthanc/dicom-web',
