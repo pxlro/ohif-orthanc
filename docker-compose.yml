@@ -4,14 +4,19 @@ services:
     container_name: orthanc
     image: jodogne/orthanc-plugins
     ports:
-      - 8042:8042
+      - 443:443
       - 4242:4242
     volumes:
       - ./orthanc.json:/etc/orthanc/orthanc.json:ro
       - ./orthanc_db:/var/lib/orthanc/db/
-      - ./tls/pacs.pem:/etc/orthanc/tls/pacs.crt:ro
-      - ./tls/pacs.key:/etc/orthanc/tls/pacs.key:ro
+      - ./tls:/tls
     restart: always
+    environment:
+      DICOM_WEB_PLUGIN_ENABLED: "true"
+      OHIF_PLUGIN_ENABLED: "true"
+      VERBOSE_ENABLED: "true"
+      VERBOSE_STARTUP: "true"
+
     networks:
       - pacs
 
