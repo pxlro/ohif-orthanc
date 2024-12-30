@@ -7,13 +7,13 @@ prompt                 = no
 x509_extensions        = v3_ca
 
 [ req_distinguished_name ]
-C                      = BE
+C                      = RO
 ST                     = -
-L                      = Liège
-O                      = OrthancTeam
-OU                     = ops
-CN                     = orthanc
-emailAddress           = certs@example.com
+L                      = Constanta
+O                      = SIA
+OU                     = IT
+CN                     = pacs-staging,.siamedical.ro
+emailAddress           = ap@pixelcraft.ro
 
 [ req_attributes ]
 challengePassword      = password
