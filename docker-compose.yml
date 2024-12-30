@@ -20,23 +20,6 @@ services:
     networks:
       - pacs
 
-  ohif_viewer:
-    container_name: ohif
-    image: ohif/viewer
-    ports:
-      - 3000:80
-    environment:
-      - APP_CONFIG:/usr/share/nginx/html/app-config.js
-    volumes:
-      - ./nginx_ohif.conf:/etc/nginx/conf.d/default.conf:ro
-      - ./ohif.js:/usr/share/nginx/html/app-config.js:ro
-      - ./logo.png:/usr/share/nginx/html/logo.png:ro
-      - ./tls/pacs.crt:/etc/nginx/tls/pacs.crt:ro
-      - ./tls/pacs.key:/etc/nginx/tls/pacs.key:ro
-    restart: always
-    networks:
-      - pacs
-
 networks:
   pacs:
     external: true
