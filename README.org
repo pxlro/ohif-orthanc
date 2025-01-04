@@ -21,7 +21,6 @@ It will also create a new /bridge-network/ pacs.
 
 *** Access OHIF and Orthanc
 
-[[./ohif-orthanc.jpg]]
 
 1. To access =OHIF= go to address `http://pacs:3000`.
 2. To access =ORTHANC= webpage go to address `http://pacs:8042`
