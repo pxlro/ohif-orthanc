@@ -21,11 +21,11 @@ output_password        = password
 [ req_distinguished_name ]
 C                      = RO
 ST                     = -
-L                      = Constanta
-O                      = SIA
-OU                     = IT
+L                      = City
+O                      = O
+OU                     = OU
 CN                     = CA
-emailAddress           = ap@pixelcraft.ro
+emailAddress           = email@example.com
 
 [ req_attributes ]
-challengePassword      = test
+challengePassword      = password
