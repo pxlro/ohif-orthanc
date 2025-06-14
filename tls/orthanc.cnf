@@ -9,11 +9,11 @@ x509_extensions        = v3_ca
 [ req_distinguished_name ]
 C                      = RO
 ST                     = -
-L                      = Constanta
-O                      = SIA
-OU                     = IT
-CN                     = pacs-staging.siamedical.ro
-emailAddress           = ap@pixelcraft.ro
+L                      = City
+O                      = O
+OU                     = OU
+CN                     = domain.tld
+emailAddress           = email@example.com
 
 [ req_attributes ]
 challengePassword      = password
